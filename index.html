@@ -12,76 +12,89 @@
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
         <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        
     </head>
 
     <body>
-        <nav
-            class="navbar navbar-expand-sm navbar-light bg-light"
-        >
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                    class="navbar-toggler d-lg-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId"
-                    aria-controls="collapsibleNavId"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page"
-                                >Home
-                                <span class="visually-hidden">(current)</span></a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="dropdownId"
-                                data-bs-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Dropdown</a
-                            >
-                            <div
-                                class="dropdown-menu"
-                                aria-labelledby="dropdownId"
-                            >
-                                <a class="dropdown-item" href="#"
-                                    >Action 1</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                    >Action 2</a
-                                >
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="d-flex my-2 my-lg-0">
-                        <input
-                            class="form-control me-sm-2"
-                            type="text"
-                            placeholder="Search"
-                        />
-                        <button
-                            class="btn btn-outline-success my-2 my-sm-0"
-                            type="submit"
-                        >
-                            Search
-                        </button>
-                    </form>
-                </div>
+        <div class="container mt-5">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row">
+                <div class="col"><div class="custom-box">BOX 1</div></div>
+                <div class="col"><div class="custom-box">BOX 2</div></div>
+                <div class="col"><div class="custom-box">BOX 3</div></div>
+                <div class="col"><div class="custom-box">BOX 4</div></div>
             </div>
-        </nav>
-        
+        </div>
+
+        <div class="container-fluid mt-5">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row">
+                <div class="col"><div class="custom-box">BOX 1</div></div>
+                <div class="col"><div class="custom-box">BOX 2</div></div>
+                <div class="col"><div class="custom-box">BOX 3</div></div>
+                <div class="col"><div class="custom-box">BOX 4</div></div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row-no gutters">
+                <div class="col"><div class="custom-box">BOX 1</div></div>
+                <div class="col"><div class="custom-box">BOX 2</div></div>
+                <div class="col"><div class="custom-box">BOX 3</div></div>
+                <div class="col"><div class="custom-box">BOX 4</div></div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row">
+                <div class="col-md-6 col-sm-12"><div class="custom-box">BOX 1</div></div>
+                <div class="col-md-6 col-sm-12"><div class="custom-box">BOX 2</div></div>
+                <div class="col-md-6 col-sm-12"><div class="custom-box">BOX 3</div></div>
+                <div class="col-md-6 col-sm-12"><div class="custom-box">BOX 4</div></div>
+            </div>
+        </div>
+
+        <div class="container.my-4">
+            <h3>Text Colors</h3>
+            <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A similique eius accusantium laboriosam illum aut provident mollitia tenetur incidunt, voluptas eligendi unde repudiandae, praesentium enim! Suscipit quos tenetur delectus similique?</p>
+            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ipsum odit facere sapiente omnis quibusdam totam reiciendis. Sunt repellendus molestiae soluta consectetur sint qui laudantium officiis, placeat eos? Quod, aperiam.</p>
+            <p class="text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi beatae aliquid ipsam dignissimos, explicabo itaque a repellat deserunt molestiae odio. Assumenda ex iusto aut quia sapiente consequatur dicta placeat exercitationem.</p>
+            <p class="text-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias iure assumenda exercitationem quaerat id quisquam architecto magnam, vel numquam! Nulla deserunt corrupti quod! Molestiae saepe quas quis quidem. Dolores, dolorum.</p>
+            <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo molestiae, rem consequuntur architecto consectetur obcaecati? Ullam, porro qui possimus consequuntur, autem illum aliquid sint dolores labore explicabo dolorum debitis cumque!</p>
+            <p class="text-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quod consequuntur totam deserunt doloremque cupiditate ducimus maxime qui dicta quas modi reprehenderit nobis libero ea voluptas facere, ex expedita. Explicabo.</p>
+            <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad perspiciatis ducimus? Facere culpa illo eum soluta ea, nesciunt ducimus ipsam tempore laboriosam dolorum suscipit rem maiores natus quod dolor!</p>
+            <p class="text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio molestiae et illum doloremque tempora repellat. Sapiente suscipit fugiat rerum necessitatibus sint a ipsam minima? Molestias perspiciatis laboriosam praesentium vero corrupti?</p>
+        </div>
+
+        <div class="container my-4">
+            <h3>Background Colors</h3>
+            <div class="bg-primary text-light">Primary BG Color</div>
+            <div class="bg-secondary text-light">Primary BG Color</div>
+            <div class="bg-success text-light">Primary BG Color</div>
+            <div class="bg-danger text-light">Primary BG Color</div>
+            <div class="bg-warning text-light">Primary BG Color</div>
+            <div class="bg-info text-light">Primary BG Color</div>
+            <div class="bg-light text-dark">Primary BG Color</div>
+            <div class="bg-dark text-light">Primary BG Color</div>
+        </div>
+
+        <div class="container my-4">
+            <h3>Border Color</h3>
+            <div class="border border-primary p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-secondary p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-success p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-danger p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-warning p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-info p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-light p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+            <div class="border border-dark p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt et vitae praesentium corrupti fuga perferendis blanditiis voluptatum nobis dolor odio esse quis nam fugiat autem nostrum doloribus, accusamus aspernatur porro?</div>
+        </div>
+
+
+
         <!-- Bootstrap JavaScript Libraries -->
         <script href="./bootstrap-5.3.3-dist/css/bootstrap.css"></script>
         <script href="./bootstrap-4.5.3-dist/css/bootstrap.css"></script>

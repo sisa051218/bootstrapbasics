@@ -1,0 +1,11 @@
+.custom-box{
+    height: 100px;
+    background-color: palevioletred;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
